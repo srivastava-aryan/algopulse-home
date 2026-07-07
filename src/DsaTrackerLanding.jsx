@@ -44,7 +44,7 @@ function Reveal({ as: Tag = 'div', className = '', style, children }) {
 }
 
 export default function DsaTrackerLanding({
-  githubUrl = 'https://github.com/',
+  githubUrl = 'https://github.com/srivastava-aryan',
   portfolioUrl = 'https://aryansrivastava.me',
 }) {
   return (
@@ -52,15 +52,15 @@ export default function DsaTrackerLanding({
       <nav>
         <div className="wrap">
           <div className="brand">
-            <span className="dot" />
-            dsa-tracker
+            {/* <span className="dot" /> */}
+            algo-pulse
           </div>
           <div className="nav-links">
             {NAV_LINKS.map((link) => (
               <a key={link.href} href={link.href}>{link.label}</a>
             ))}
           </div>
-          <a className="nav-cta" href={githubUrl} target="_blank" rel="noreferrer">
+          <a className="nav-cta" href="https://github.com/srivastava-aryan/algopulse" target="_blank" rel="noreferrer">
             View source
           </a>
         </div>
@@ -68,7 +68,7 @@ export default function DsaTrackerLanding({
 
       <header className="hero">
         <div className="wrap">
-          <p className="eyebrow">./dsa-tracker --status</p>
+          <p className="eyebrow">./algo-pulse --status</p>
           <h1>
             A spaced repetition system
             <br />
@@ -80,7 +80,7 @@ export default function DsaTrackerLanding({
             to fade, and shows the whole pattern on a calendar and a heatmap.
           </p>
           <div className="cta-row">
-            <a className="btn-primary" href={githubUrl} target="_blank" rel="noreferrer">
+            <a className="btn-primary" href="https://github.com/srivastava-aryan/algopulse" target="_blank" rel="noreferrer">
               View source on GitHub
             </a>
             <a className="btn-ghost" href="#schedule">How the scheduling works</a>
@@ -89,7 +89,7 @@ export default function DsaTrackerLanding({
           <Reveal className="terminal" style={{ marginTop: 48 }}>
             <div className="terminal-bar">
               <span /><span /><span />
-              <span className="path">dsa-tracker — zsh</span>
+              <span className="path">algo-pulse — zsh</span>
             </div>
             <div className="terminal-body">
               <div><span className="prompt">$</span> add --question "https://leetcode.com/problems/two-sum/"</div>
@@ -317,8 +317,8 @@ export default function DsaTrackerLanding({
               public signup, this page exists to walk through how it works.
             </p>
             <div className="links">
-              <a href={githubUrl} target="_blank" rel="noreferrer">GitHub</a>
-              <a href={portfolioUrl} target="_blank" rel="noreferrer">Portfolio</a>
+              <a href="https://github.com/srivastava-aryan/algo-pulse" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://aryansrivastava.me" target="_blank" rel="noreferrer">Portfolio</a>
             </div>
           </div>
         </div>

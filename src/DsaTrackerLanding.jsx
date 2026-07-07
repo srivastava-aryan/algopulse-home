@@ -89,7 +89,7 @@ export default function DsaTrackerLanding({
           <Reveal className="terminal" style={{ marginTop: 48 }}>
             <div className="terminal-bar">
               <span /><span /><span />
-              <span className="path">algo-pulse — zsh</span>
+              <span className="path">algo-pulse --zsh</span>
             </div>
             <div className="terminal-body">
               <div><span className="prompt">$</span> add --question "https://leetcode.com/problems/two-sum/"</div>

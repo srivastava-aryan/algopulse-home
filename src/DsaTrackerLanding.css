@@ -67,7 +67,7 @@
 .dsa-landing .terminal { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; box-shadow: 0 30px 60px -20px rgba(0,0,0,0.6); }
 .dsa-landing .terminal-bar { display: flex; align-items: center; gap: 6px; padding: 10px 14px; border-bottom: 1px solid var(--line); background: var(--panel-alt); }
 .dsa-landing .terminal-bar span { width: 10px; height: 10px; border-radius: 50%; background: #2a3638; }
-.dsa-landing .terminal-bar .path { margin-left: 10px; font-size: 11px; color: var(--dim); }
+.dsa-landing .terminal-bar .path { width: auto; height: auto; border-radius: 10px; font-size: 9px; color: var(--dim); }
 .dsa-landing .terminal-body { padding: 22px; font-size: 13px; }
 .dsa-landing .terminal-body .prompt { color: var(--cyan-dim); }
 .dsa-landing .terminal-body .cursor { display: inline-block; width: 7px; height: 15px; background: var(--cyan); margin-left: 4px; animation: dsa-blink 1s steps(1) infinite; vertical-align: text-bottom; }
